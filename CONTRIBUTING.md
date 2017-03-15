@@ -83,3 +83,20 @@ in order to craft an excellent pull request:
    ```
 
 Thank you for your contributions!
+
+## Things needed to get a Pull Request accepted
+
+Tests must be passing on CI (Travis).
+
+To run tests locally:
+```ruby
+bundle exec rspec
+```
+
+You must explain what problem your PR is solving, and explain why you think your solution is the best one.
+
+If you add new functionality or expand the scope of a function, you should add tests to cover the new functionality (and they should pass).
+
+Code should be clear and concise.
+
+Variable names should be spelled out. No single letter variable names that could cause confusion.
